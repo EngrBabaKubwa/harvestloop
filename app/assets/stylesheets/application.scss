@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap_customizations";
+@import "bootstrap";
+
+@import "pages";
+/*@import "signin_and_signup";*/
+@import "navbar";
