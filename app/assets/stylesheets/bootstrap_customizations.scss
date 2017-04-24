@@ -18,6 +18,12 @@
 //
 // Grayscale and brand colors for use across Bootstrap.
 
+$yellow:					#ffd966;
+$green:						#93c47d;
+$gray:						#434343;
+$blue:						#3d85c6;
+$white:						#ffffff;
+
 $fire-brush:			    #eb9532;
 $cape-honey:				#fde3a7;
 $casa-blanca:				#f4b350;
@@ -27,7 +33,7 @@ $brown:						#9F8170;
 $black:						#000000;
 
 $gray-dark:                 #373a3c;
-$gray:                      #55595c;
+// $gray:                      #55595c;
 $gray-light:                #818a91;
 $gray-lighter:              #eceeef;
 $gray-lightest:             #f7f7f9;
@@ -63,8 +69,8 @@ $border-width: 1px;
 //
 // Settings for the `<body>` element.
 
-$body-bg:    $gray-dark;
-$body-color: $cape-honey;
+$body-bg:    $white;
+$body-color: $gray;
 
 
 // Links
@@ -81,15 +87,16 @@ $link-hover-decoration: underline;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$font-family-sans-serif: Ubuntu, Arial, serif;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif;
 $font-family-base:       $font-family-sans-serif;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
-$font-size-root: 16px;
+$font-size-root: 24px;
 
 $font-size-base: 1rem;
-$font-size-lg:   1.25rem;
+$font-size-lg:   2rem;
 $font-size-sm:   .875rem;
 $font-size-xs:   .75rem;
 
@@ -104,9 +111,9 @@ $font-size-h6: 1rem;
 
 $headings-margin-bottom: ($spacer / 2);
 $headings-font-family:   inherit;
-$headings-font-weight:   500;
+$headings-font-weight:   600;
 $headings-line-height:   1.1;
-$headings-color:         $sea-buckthorn;
+$headings-color:         $green;
 
 
 // Components
@@ -121,28 +128,9 @@ $border-radius-lg:       .3rem;
 $border-radius-sm:       .2rem;
 
 
-// Navbar
-
-$navbar-border-radius:              $border-radius;
-$navbar-padding-x:                  $spacer;
-$navbar-padding-y:                  ($spacer / 2);
-$navbar-brand-padding-y:            .25rem;
-
-$navbar-dark-color:                 rgba(255,255,255,.5);
-$navbar-dark-hover-color:           rgba(255,255,255,.75);
-$navbar-dark-active-color:          rgba(255,255,255,1);
-$navbar-dark-disabled-color:        rgba(255,255,255,.25);
-
-$navbar-light-color:                rgba(0,0,0,.3);
-$navbar-light-hover-color:          rgba(0,0,0,.6);
-$navbar-light-active-color:         rgba(0,0,0,.8);
-$navbar-light-disabled-color:       rgba(0,0,0,.15);
-
-
 // Jumbotron
 
 $jumbotron-padding:              3rem;
 $jumbotron-bg:                   $gray-lightest;
 
 // added customizations
-

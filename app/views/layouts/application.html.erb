@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>One Month Rails Project</title>
+    <title>Harvest Loop</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
   </head>
 
   <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
-      <div class="container">
-        <%= link_to "One Month Rails", root_path, class: "navbar-brand" %>
-        <ul class="navbar-nav">
-          <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
-          <li class="nav-item"><%= link_to "About", about_path, class: "nav-link" %></li>
-          <li class="nav-item"><%= link_to "Contact", contact_path, class: "nav-link" %></li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-toggleable-sm navbar-custom">
+      <a class="navbar-brand"><img src="/assets/navbar-logo.png" alt="haifai"></a>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to "Contact", contact_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to "Demo", demo_path, class: "nav-link" %></li>
+      </ul>
     </nav>
 
     <!-- Page Content -->
     <%= yield %>
-    
-    <!-- Footer -->
-    <footer class="small text-muted">
-      <div class="container">
-        <hr>
-        <center>
-          <p>© 2016 One Month</p>
-        </center>
-      </div>
-    </footer>
