@@ -6,14 +6,14 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-    <link rel="shortcut icon" type="image/png" src="http://www.harvestloop.com/app/assets/images/favicon.png"/>
+    <%= favicon_link_tag 'favicon.png' %>
   </head>
 
   <body>
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-toggleable-sm navbar-custom">
-      <a class="navbar-brand"><img src="http://www.harvestloop.com/app/assets/images/navbar-logo.png" alt="haifai"></a>
+      <a class="navbar-brand"><%= image_tag('navbar-logo.png') %></a>
       <ul class="nav navbar-nav navbar-right">
         <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
         <li class="nav-item"><%= link_to "Contact", contact_path, class: "nav-link" %></li>
@@ -23,3 +23,5 @@
 
     <!-- Page Content -->
     <%= yield %>
+  </body>
+</html>
