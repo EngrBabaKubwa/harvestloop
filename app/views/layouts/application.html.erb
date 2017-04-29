@@ -15,9 +15,9 @@
     <nav class="navbar navbar-toggleable-sm navbar-custom">
       <a class="navbar-brand"><%= image_tag('navbar-logo.png') %></a>
       <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Demo", demo_path, class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Contact", contact_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to 'Welcome', root_path(:anchor => 'welcome'), class: 'nav-link' %></li>
+        <li class="nav-item"><%= link_to 'Demo', root_path(:anchor => 'demo'), class: 'nav-link' %></li>
+        <li class="nav-item"><%= link_to 'Contact', root_path(:anchor => 'contact'), class: 'nav-link' %></li>
       </ul>
     </nav>
 
