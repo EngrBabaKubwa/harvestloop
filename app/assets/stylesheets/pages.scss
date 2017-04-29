@@ -14,7 +14,7 @@ $zest:                      #e67e22;
 $sea-buckthorn:             #eb974e;
 
 .jumbotron-home {
-    background-image: url(image_path('home-jumbo-trans.jpg'));
+    background-image: url(image_path('home-jumbo-low.jpg'));
     min-height: 1000px;
     background-repeat: no-repeat;
     background-position: left 80%;
@@ -38,7 +38,9 @@ $sea-buckthorn:             #eb974e;
 
 #intro {
     /* image used */
-    background-image: url(image_path('home-cover-trans.jpg'));
+    background-image: url(image_path('home-cover-low.jpg'));
+    background-position: center center;
+    background-size: 100%;
 
     /* Set a specific height */
     min-height: 1000px; 
@@ -49,7 +51,7 @@ $sea-buckthorn:             #eb974e;
 
 #demo {
     /* image used */
-    background-image: url(image_path('demo-cover-trans.jpg'));
+    background-image: url(image_path('demo-cover-low.jpg'));
     background-position: center 0%;
 
     /* Set a specific height */
@@ -61,7 +63,7 @@ $sea-buckthorn:             #eb974e;
 
 #contact {
     /* image used */
-    background-image: url(image_path('contact-cover-trans.jpg'));
+    background-image: url(image_path('contact-cover-low.jpg'));
     background-position: center 40%;
 
     /* Set a specific height */
