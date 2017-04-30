@@ -184,3 +184,8 @@ p {
 #send h2 {
     color: $green;
 }
+
+.color-link:hover {
+    color: $green;
+    text-decoration: none;
+}
