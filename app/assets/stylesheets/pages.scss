@@ -17,12 +17,16 @@ $sea-buckthorn:             #eb974e;
     background-image: url(image_path('home-jumbo-low.jpg'));
     min-height: 1000px;
     background-repeat: no-repeat;
-    background-position: left 80%;
-    background-size: 175%;
+    background-position: left 68%;
+    background-size: 110%;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 0em;
     padding-top: 475px;
+}
+
+.jumbotron-home p {
+    font-size: 28px;
 }
 
 .parallax {
