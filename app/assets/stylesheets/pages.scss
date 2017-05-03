@@ -18,11 +18,12 @@ $sea-buckthorn:             #eb974e;
     min-height: 1000px;
     background-repeat: no-repeat;
     background-position: left 68%;
-    background-size: 110%;
+    background-size: cover;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 0em;
     padding-top: 475px;
+    border-radius: 0px;
 }
 
 .jumbotron-home p {
@@ -44,7 +45,6 @@ $sea-buckthorn:             #eb974e;
     /* image used */
     background-image: url(image_path('home-cover-low.jpg'));
     background-position: center center;
-    background-size: 100%;
 
     /* Set a specific height */
     min-height: 1000px; 
